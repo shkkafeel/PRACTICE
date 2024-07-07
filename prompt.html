@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+
+<body>
+
+    <!-- How Old Are You -->
+
+    <!-- <script>
+        let name = prompt("Please Enter Your Name");
+        let age = prompt("Please Enter Your Age");
+        alert(` ${name} is ${age} years old. `);
+    </script> -->
+
+    <script>
+
+        let quarter = prompt("Enter Quarter Number");
+        quarter = parseFloat(quarter);
+
+        switch (quarter) {
+            case 1: document.write("January, February, March");
+                break;
+
+            case 2: document.write("April, May, June");
+                break;
+
+            case 3: document.write("July, August, September");
+                break;
+
+            case 4: document.write("October, November, December");
+                break;
+
+            default: document.write("Not a Quarter");
+                break;
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
