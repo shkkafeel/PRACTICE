@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Prompt user for marks input
+        let marks = prompt("Enter Your Marks");
+
+        // Convert marks to a number
+        marks = parseFloat(marks);
+
+        // Check the grade based on the marks
+        
+        if (marks <= 100 && marks >= 90) {
+            document.write("A+"); 
+            document.write("Outstanding");
+        } else if (marks < 90 && marks >= 80) {
+            document.write("A");
+            document.write("Excellent");
+        } else if (marks < 80 && marks >= 70) {
+            document.write("B+");
+            document.write("Keep it Up");
+        } else {
+            document.write("Your grade is not determined from the provided range.");
+        }
+    </script>
+</body>
+
+</html>
