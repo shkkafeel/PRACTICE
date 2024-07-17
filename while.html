@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>While Loop</title>
 </head>
+
 <body>
-    <script>
+    <!-- <script>
         let x = 1;
         while (x <= 10) {
-            if ( x == 3) {
+            if (x == 3) {
                 x = x + 1;
                 continue;
             } else {
@@ -17,6 +19,30 @@
             }
             x = x + 1;
         }
+    </script> -->
+
+    <h4>Numbers One to Ten otherthan number 3 & 9</h4>
+    <!-- Write numbers from one 1 to 10 but skip number 3 & 9. -->
+
+
+    <script>
+
+        let x = 1;
+        while (x <= 10) {
+            if (x == 3 || x == 9) {
+
+                x = x + 1;
+
+            } else {
+                document.write(x);
+                x = x + 1;
+            }
+
+        }
     </script>
+
+
+
 </body>
+
 </html>
