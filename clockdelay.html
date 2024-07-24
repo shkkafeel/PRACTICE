@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock delay</title>
+</head>
+
+<body>
+
+    <script>
+        
+
+        for (let h = 0; h <= 24; h++) {
+
+            for (let m = 0; m <= 60; m++) {
+
+                for (let s = 0; s <= 60; s++) {
+
+
+                    let k = 0
+                    while( k <= 100000) {
+                        k++;
+                    }
+
+                    document.write(`${h} ${m} ${s}`);
+                    document.write(`<br>`);
+                    
+
+                }
+            }
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>
